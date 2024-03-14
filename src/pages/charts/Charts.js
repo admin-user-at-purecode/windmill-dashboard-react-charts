@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import ChartCard, { PageTitle } from '../../components/Chart/ChartDetails.js'
-import { Doughnut, Line, Bar } from 'react-chartjs-2'
-import ChartLegend from '../../components/Chart/ChartDetails.js'
+import ChartCard, { PageTitle } from "../../components/Chart/ChartDetails.js";
+import { Doughnut, Line, Bar } from "react-chartjs-2";
+import ChartLegend from "../../components/Chart/ChartDetails.js";
 
 import {
   doughnutOptions,
@@ -11,7 +11,7 @@ import {
   doughnutLegends,
   lineLegends,
   barLegends,
-} from '../../components/Chart/chartsData.js'
+} from "../../components/Chart/chartsData.js";
 
 function Charts() {
   return (
@@ -24,18 +24,18 @@ function Charts() {
           <ChartLegend legends={doughnutLegends} />
         </ChartCard>
 
-        <ChartCard title="Lines">
-          <Line {...lineOptions} />
-          <ChartLegend legends={lineLegends} />
-        </ChartCard>
-
         <ChartCard title="Bars">
           <Bar {...barOptions} />
           <ChartLegend legends={barLegends} />
         </ChartCard>
+
+        <ChartCard title="Lines">
+          <Line {...lineOptions} />
+          <ChartLegend legends={lineLegends} />
+        </ChartCard>
       </div>
     </>
-  )
+  );
 }
 
-export default Charts
+export default Charts;
