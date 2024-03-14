@@ -28,7 +28,7 @@
       "description": "main heading of the content section"
     },
     "ChartCard": {
-      "count": 1,
+      "count": 3,
       "location": "below the PageTitle in flex container",
       "description": "Piechart, LineGraph and BarGraph"
     }
