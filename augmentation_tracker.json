@@ -1,0 +1,36 @@
+{
+  "theme_augmentations": {
+    "color": "red",
+    "font": "Arial",
+    "size": "12px",
+    "background": "white",
+    "border": "1px solid black",
+    "radius": "5px",
+    "shadow": "2px 2px 2px 2px #888888"
+  },
+
+  "components_name": ["Header", "Sidebar", "PageTitle", "ChartCard"],
+
+  "components_count": {
+    "Header": {
+      "count": 1,
+      "location": "At the top of the page",
+      "description": "Title, Search Input, Icon and Dropdowns in flex container"
+    },
+    "Sidebar": {
+      "count": 1,
+      "location": "Left end of the page",
+      "description": "List items in the container, Dropdown and Button"
+    },
+    "PageTitle": {
+      "count": 1,
+      "location": "below the Header to the right of Sidebar",
+      "description": "main heading of the content section"
+    },
+    "ChartCard": {
+      "count": 1,
+      "location": "below the PageTitle in flex container",
+      "description": "Piechart, LineGraph and BarGraph"
+    }
+  }
+}
