@@ -9,7 +9,13 @@
     "shadow": "2px 2px 2px 2px #888888"
   },
 
-  "components_name": ["Header", "Sidebar", "PageTitle", "ChartCard"],
+  "components_name": [
+    "Header",
+    "Sidebar",
+    "PageTitle",
+    "ChartCard",
+    "cardWithHeading"
+  ],
 
   "components_count": {
     "Header": {
@@ -29,8 +35,13 @@
     },
     "ChartCard": {
       "count": 3,
-      "location": "below the PageTitle in grid container",
+      "location": "below thePageTitle in grid container",
       "description": "Piechart, LineGraph and BarGraph"
+    },
+    "cardWithHeading": {
+      "count": 2,
+      "location": "below the ChartCard in grid container",
+      "description": "contains heading and text"
     }
   }
 }
