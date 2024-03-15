@@ -6,33 +6,12 @@ import {
   SunIcon,
   BellIcon,
   MenuIcon,
-  OutlinePersonIcon,
-  OutlineCogIcon,
-  OutlineLogoutIcon,
 } from "../../assets/icons";
-import {
-  Avatar,
-  Badge,
-  Input,
-  Dropdown,
-  DropdownItem,
-  WindmillContext,
-} from "@windmill/react-ui";
+import { Avatar, Input, WindmillContext } from "@windmill/react-ui";
 
 function Header() {
   const { mode, toggleMode } = useContext(WindmillContext);
   //   const { toggleSidebar } = useContext(SidebarContext)
-
-  const [isNotificationsMenuOpen, setIsNotificationsMenuOpen] = useState(false);
-  const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
-
-  function handleNotificationsClick() {
-    setIsNotificationsMenuOpen(!isNotificationsMenuOpen);
-  }
-
-  function handleProfileClick() {
-    setIsProfileMenuOpen(!isProfileMenuOpen);
-  }
 
   return (
     <header className="z-40 py-4 bg-white shadow-bottom dark:bg-gray-800">
