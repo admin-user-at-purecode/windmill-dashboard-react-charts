@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 // import { SidebarContext } from '../context/SidebarContext'
 import {
   SearchIcon,
@@ -15,13 +15,9 @@ import {
   Input,
   Dropdown,
   DropdownItem,
-  WindmillContext,
 } from "@windmill/react-ui";
 
 function Header() {
-  const { mode, toggleMode } = useContext(WindmillContext);
-  //   const { toggleSidebar } = useContext(SidebarContext)
-
   const [isNotificationsMenuOpen, setIsNotificationsMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
 
