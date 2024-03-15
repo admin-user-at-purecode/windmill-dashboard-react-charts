@@ -32,5 +32,8 @@
       "location": "below the PageTitle in grid container",
       "description": "Piechart, LineGraph and BarGraph"
     }
-  }
+  },
+  "screen_and_layout_augmentations": [
+    "Removed Dropdown functionality from Header"
+  ]
 }
