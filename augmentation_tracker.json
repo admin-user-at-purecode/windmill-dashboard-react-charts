@@ -9,7 +9,7 @@
     "shadow": "2px 2px 2px 2px #888888"
   },
 
-  "components_name": ["Header", "Sidebar", "PageTitle", "ChartCard"],
+  "components_name": ["Header", "Sidebar", "PageTitle", "CTA", "ChartCard"],
 
   "components_count": {
     "Header": {
@@ -27,9 +27,14 @@
       "location": "below the Header to the right of Sidebar",
       "description": "main heading of the content section"
     },
+    "CTA": {
+      "count": 1,
+      "location": "below the PageTitle",
+      "description": "Icon and text in a flex container"
+    },
     "ChartCard": {
       "count": 3,
-      "location": "below the PageTitle in grid container",
+      "location": "below the CTA in grid container",
       "description": "Piechart, LineGraph and BarGraph"
     }
   }
