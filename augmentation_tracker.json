@@ -15,7 +15,7 @@
     "Header": {
       "count": 1,
       "location": "At the top of the page",
-      "description": "Title, Search Input, Icon and Dropdowns in flex container"
+      "description": "Title, Search Input, Icon flex container"
     },
     "Sidebar": {
       "count": 1,
