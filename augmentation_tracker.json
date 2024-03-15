@@ -9,14 +9,9 @@
     "shadow": "2px 2px 2px 2px #888888"
   },
 
-  "components_name": ["Header", "Sidebar", "PageTitle", "ChartCard"],
+  "components_name": ["Sidebar", "PageTitle", "ChartCard"],
 
   "components_count": {
-    "Header": {
-      "count": 1,
-      "location": "At the top of the page",
-      "description": "Title, Search Input, Icon and Dropdowns in flex container"
-    },
     "Sidebar": {
       "count": 1,
       "location": "Left end of the page",
@@ -24,7 +19,7 @@
     },
     "PageTitle": {
       "count": 1,
-      "location": "below the Header to the right of Sidebar",
+      "location": "at the top to the right of Sidebar",
       "description": "main heading of the content section"
     },
     "ChartCard": {
