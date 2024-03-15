@@ -29,7 +29,7 @@
     },
     "ChartCard": {
       "count": 2,
-      "location": "below the PageTitle in flex container",
+      "location": "below the PageTitle in grid container",
       "description": "Piechart, LineGraph and BarGraph"
     }
   }
